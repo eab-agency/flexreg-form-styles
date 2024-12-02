@@ -19,7 +19,7 @@ document.querySelector('#app').innerHTML = `
       </div>
     </button>
     <figure class="appily-logo">
-      <img src="assets/appily-logo-horizontal-black.svg" alt="Appily Advance logo" />
+      <img src="./images/appily-logo-horizontal-black.svg" alt="Appily Advance logo" />
     </figure>
   </div>
 </main>
