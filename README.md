@@ -2,5 +2,5 @@
 
 To run locally:
 
-[bun run install]
-[bun run dev]
+`bun run install
+bun run dev`
