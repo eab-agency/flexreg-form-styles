@@ -1,0 +1,74 @@
+// ====================================================
+// ============== PRIMITIVES ==========================
+$yellow: #FFE510;
+$orange-500: #ED8B00;
+$orange-400: #ffa321;
+$orange-300: #ffb854;
+$orange-200: #ffcd87;
+$orange-100: #ffe2ba;
+$teal: #00cc99;
+$light-grey: #C2CAD0;
+$dark-grey: #031D32;
+$shadow-grey: rgb(148, 149, 174);
+
+$sans-serif: 'museo-sans', Nunito, sans-serif;
+$serif: 'museo-slab', Georgia, serif;
+
+
+
+// ====================================================
+// ============== COLORS ==============================
+
+$color-heading: $dark-grey;
+$color-body: $dark-grey;
+$color-copyright: rgb(108, 120, 130);
+
+$bg-1: $yellow;
+$bg-2: $orange-500;
+$bg-3: $teal;
+$bg-4: white;
+
+$button-bg: $orange-500;
+$button-hover: $orange-400;
+$button-border: $orange-500;
+
+// ====================================================
+// ============== TYPOGRAPHY ==========================
+
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-md: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 1.5rem;
+$font-size-xxl: 2rem;
+
+$fluid-font-size-sm: clamp(0.875rem, 1vw, 1rem);
+$fluid-font-size-md: clamp(1rem, 1.5vw, 1.5rem);
+$fluid-font-size-lg: clamp(1.25rem, 2vw, 2rem);
+$fluid-font-size-xl: clamp(1.5rem, 2.5vw, 2.5rem);
+
+$fontWeight-semibold: 600;
+
+$label-line-height: 1.5;
+
+// ====================================================
+// ============== SPACING =============================
+
+$padding-md: 0.5rem;
+$padding-lg: 1rem;
+
+$fluid-padding-sm: clamp(0.25rem, 0.5vw, 0.8rem);
+$fluid-padding-md: clamp(0.4rem, 0.8vw, 1rem);
+$fluid-padding-lg: clamp(0.8rem, 1.25vw, 1.25rem);
+$fluid-padding-xl: clamp(1.25rem, 1.6vw, 1.6rem);
+
+// ====================================================
+// ============== BORDERS =============================
+
+$corner-radius: 0.5rem;
+$border-radius-xs: 0.125rem;
+$border-radius-sm: 0.25rem;
+$border-radius-md: 0.5rem;
+$border-radius-lg: 1rem;
+
+$border-width-xs: 1px;

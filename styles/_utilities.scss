@@ -1,0 +1,5 @@
+@use "tokens";
+
+@mixin shadow {
+  box-shadow: -1rem 1rem 0 tokens.$yellow, 0px 5px 5px -3px rgba(tokens.$shadow-grey, 0.20), 0px 8px 10px 1px rgba(tokens.$shadow-grey, 0.14), 0px 3px 14px 2px rgba(tokens.$shadow-grey, 0.12);
+}
