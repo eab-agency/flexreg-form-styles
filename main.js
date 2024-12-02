@@ -1,4 +1,5 @@
 import './styles/styles.scss'
+import appilyLogo from './images/appily-logo-horizontal-black.svg'
 
 document.querySelector('#app').innerHTML = `
 <main>
@@ -19,7 +20,7 @@ document.querySelector('#app').innerHTML = `
       </div>
     </button>
     <figure class="appily-logo">
-      <img src="./images/appily-logo-horizontal-black.svg" alt="Appily Advance logo" />
+      <img src="${ appilyLogo }" alt="Appily Advance logo" />
     </figure>
   </div>
 </main>
@@ -27,5 +28,3 @@ document.querySelector('#app').innerHTML = `
       <p>Terms and Conditions · Privacy Policy · California Privacy Notice · Do Not Sell or Share My Personal Information · Privacy Preferences</p>
     </footer>
 `
-
-setupCounter(document.querySelector('#counter'))
