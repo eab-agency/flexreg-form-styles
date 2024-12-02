@@ -1,1 +1,6 @@
-# flexreg-form-styles
+# flexreg-form-
+
+To run locally:
+
+[bun run install]
+[bun run dev]
